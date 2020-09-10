@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>JSHunt</h1>
+  <h1 align="center">JSHunt</h1>
  </p>
  
  <h4 align="center">
