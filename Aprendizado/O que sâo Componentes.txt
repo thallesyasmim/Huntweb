@@ -1,0 +1,23 @@
+Vamos entender o principal conceito, que é o conceito
+de componentização dentro do React.
+
+Em todo lugar que utilizarmos JSX, precisamos ter o React importado.
+Afinal, o JSX será convertido para aquela sintaxe de "React.createElement()", etc.
+
+O método "render()" do ReactDOM, será utilizado uma única vez em toda nossa
+aplicação, ele irá renderizar o nosso componente principal que é o <App /> dentro
+da div com id = "root", que é o segundo parâmetro deste método.
+
+Todos os componentes são criados com a primeira letra maiúscula, para
+diferenciar de uma tag HTML.
+
+Um componente antigamente era uma classe que estendia o "Component" do React.
+Hoje em dia, o React não é mais baseado em classes, mas em funções!
+
+Então um componente é uma função que retorna JSX, ele consegue encapsular a estrutura, 
+estilização e lógica numa única estrutura que é o componente.
+
+O React já vem com está parte de live reload configurada.
+
+Encontramos dentro do HTML algumas palavras reservadas do JavaScript, porém eles são um pouco modificadas
+como a "class" que é um atributo HTML, se torna "className" dentro do ReactJS.

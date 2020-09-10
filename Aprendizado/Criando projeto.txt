@@ -1,0 +1,19 @@
+Para começar a criação do nosso projeto, precisamos ter o Node.js instalado e
+também o yarn, criado pelo facebook que é um pouco mais rápido que o NPM.
+
+Instalação global do create-react-app:
+
+npm install -g create-react-app
+
+
+Por que vamos utiliza-lo ao invés de começar desde o básico?
+
+o ReactJS usa as versões mais recentes do ECMAScript, porém essas versões
+ainda não são reconhecidas por todos os browsers, então ele tem que fazer o papel
+de transpilação, que é converter algumas partes do código para uma versão que todos os browsers
+consigam entender o que estamos fazendo.
+
+Por isso utlizamos o create-react-app, porque aí não é necessário fazermos
+a configuração do webpack, babel desde o zero, já vem configurado pra nós.
+
+

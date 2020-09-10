@@ -1,0 +1,34 @@
+Nossas aplicações hoje em dia na web são dividídas em duas partes:
+
+- Back-end
+	- Node.js
+	- PHP
+	- Python
+	- Ruby
+
+
+- Front-end
+	- HTML, CSS, JS
+	- ReactJS - Framework / Biblioteca
+
+
+Qual problema o ReactJS visa resolver?
+
+O ReactJS não é uma biblioteca que consegue fazer mais do que o JavaScript consegue fazer,
+ele faz o que o JavaScript consegue fazer porém de uma forma organizada.
+
+O ReactJS é uma biblioteca sim para manipularmos a DOM, nossa árvore de elementos HTML. Muito utilizado
+para construção de SPA's. (Single Page Applications).
+
+Se você utiliza o PHP por exemplo, construímos nossa árvore de elementos (HTML), toda a parte de estilização junto
+com o back-end. Temos um controller que renderiza as views, o nosso conteúdo HTML para o usuário.
+
+Quando utlizamos o ReactJS não fazemos dessa forma, então ao invés do back-end retornar nossas páginas HTML, ele retorna um JSON (somente os dados).
+Ou seja, uma estrutura de dados para utlizarmos, que seja legível, em formato de API Rest para trabalharmos com o ReactJS. Construímos assim o back-end
+da nossa aplicação totalmente separado do nosso front-end, então ele consome os dados do nosso back-end para conseguir montar a interface.
+
+E isso trás muito flexibilidade para a gente conseguir trabalhar com a parte interativa da nossa aplicação, então se quisermos que quando
+o usuário clicar e alguma coisa carregue outra coisa, fica muito mais fácil com o ReactJS! Claro que também trazendo uma
+organização exemplar para o nosso front-end. Porque o ReactJS usa um conceito que iremos ver, que é o conceito de compenentização.
+
+Site oficial do ReactJS: https://reactjs.org/

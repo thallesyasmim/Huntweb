@@ -1,0 +1,42 @@
+.product-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.product-info h1 {
+    font-size: 3.2rem;
+}
+
+.product-info p {
+    font-size: 1.6rem;
+    color: #666;
+    line-height: 2.4rem;
+    margin-top: 5px;
+}
+
+.product-info p a{
+    color: #dA552f;
+    margin-left: 5px;
+}
+
+.product-info a.button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #DA552F;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    margin-top: 40px; 
+    display: inline-block;
+}
+
+.product-info a.button:hover {
+    opacity: 0.7;
+}
